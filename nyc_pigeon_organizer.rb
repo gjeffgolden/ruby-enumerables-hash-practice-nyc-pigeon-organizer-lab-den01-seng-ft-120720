@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
       if !a[name][key]
         a[name][key] = []
       end
-      a[name][key] << inner_key
+      a[name][key] << inner_key.to_s 
     end
   end
   updated_list
