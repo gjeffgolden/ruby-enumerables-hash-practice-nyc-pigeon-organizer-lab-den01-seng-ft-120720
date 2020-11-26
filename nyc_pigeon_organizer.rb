@@ -1,18 +1,19 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  data.each_with_object({}) do |(key, value), updated_list|
+  updated_list = data.each_with_object({}) do |(key, value), a|
     value.each do |inner_key, name|
-      if !updated_list[name]
-        updated_list[name] = {}
+      if !a[name]
+        a[name] = {}
       end
-      if !updated_list[name][key]
-        updated_list[name][key] = []
+      if !a[name][key]
+        a[name][key] = []
       end
+      a[name][key] << inner_key
        
 binding.pry 
   end
 end
 end
 end 
-binding.pr
+binding.pry
