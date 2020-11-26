@@ -10,9 +10,6 @@ def nyc_pigeon_organizer(data)
         a[name][key] = []
       end
       a[name][key] << inner_key
-       
-binding.pry 
 end
 end
 end 
-binding.pry
