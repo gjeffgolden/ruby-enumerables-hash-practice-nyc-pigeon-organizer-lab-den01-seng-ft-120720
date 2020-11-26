@@ -6,7 +6,9 @@ def nyc_pigeon_organizer(data)
       if !updated_list[name]
         updated_list[name] = {}
       end
-      if !updated_list[name]
+      if !updated_list[name][key]
+        updated_list[name][key] = []
+      end
        
 binding.pry 
   end
