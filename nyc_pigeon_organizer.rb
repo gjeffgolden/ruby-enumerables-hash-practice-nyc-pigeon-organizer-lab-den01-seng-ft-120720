@@ -1,4 +1,4 @@
 def nyc_pigeon_organizer(data)
-  updated_list = {}
+  data.each_with_object do |key, value
   
 end
