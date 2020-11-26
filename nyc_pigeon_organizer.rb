@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
         a[name][key] = []
       end
       a[name][key] << inner_key
-end
-end
+    end
+  end
+  updated_list
 end 
