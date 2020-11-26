@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     value.each do |color, name|
       if !updated_list[name]
         updated_list[name] = {}
-        updated_list.to_s
+       
 binding.pry 
   end
 end
